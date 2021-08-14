@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Uber analysis</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <style>
+  .fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-github{
+  background: #007bb5;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+  </style>
+  <body>
+    <div id='title'>
+      <h1>Uber Analysis</h1>
+    </div>
+    <div id="navbar">
+      <a href="./">Home</a>
+      <a href="./notebook.html">Notebook</a>
+      <a href="./dashboard.html">Dashboard</a>
+    </div>
+    <p id='Description'>Description-:</p>
+    <div class="card"><p>This is exploratory data analysis(EDA) on Uber data.Exploratory data analysis is an approach of  analyzing data sets to summarize their main characteristics, often using statistical graphics and other data visualization methods. In this project we explore the data to answer certain questions regarding the data as well as using dashboards to represent the data properly.</p></div>
+    <p id='Description'>Problem Statement-:</p>
+    <div class="card"><p>Answering Questions using Eda and finding multiple details about the data.The questions being:</p>
+    <ul> 
+      <li>Relation between duration and purpose of the cab.</li>
+      <li>Which are the places having lowest starting point.</li>
+      <li>Which are the places having the highest starting point.</li>
+      <li>Miles most travelled.</li>
+      <li>Purpose of most cab.</li>
+      <li>Round trips.</li>
+      <li>How does the purpose of cab ride vary with time and distance.</li>
+      <li>Etc</li>
+    </ul>
+    </div>
+    <p id="Description">Content of the dataset-:</p>
+    <div class="card"><p>The dataset includes data about rides in 2016 with total drives of 1155 and total miles of 12,204. The colums contains:</p>
+    <ul> 
+      <li>Start date</li>
+      <li>End date</li>
+      <li>Category</li>
+      <li>Start Time</li>
+      <li>Stop Time</li>
+      <li>Miles</li>
+      <li>Purpose</li>
+    </ul>
+    </div>
+    <button onclick="location.href='https://www.kaggle.com/zusmani/uberdrives'" type="button" class='btn'>Link for the dataset</button>
+    <p id='Description'>Notebook-: </p>
+    <div class="card"><p>The EDA is done in the notebook using python libraries such as pandas,numpy, matplotlib and seaborn. The EDA is used to answer questions in problem statement.</p>
+    <p>The data was imported using pandas. The data is then cleaned and altered according to the need. Then by using matplotlib and seaborn, the data is visualized and questions are answered.</p></div>
+    <img src='static/notebook.PNG'>
+    <p id='Description'>Dashboard-: </p>
+    <div class='card'><p>The dashboard contains information of the data as well as visualization of the data using google data studio. The dashboards contains visualization about purpose of the cab, miles taken, starting stop and ending stop, Round trips, etc. </p></div>
+    <img src='static/dashboard.PNG'>
+    <p id='Description'>Conclusion-:</p>
+    <p>The conclusion of the whole project is:</p>
+    <div class="card"> 
+      <ul> 
+        <li>Most of the cab rides are within a distance of 31 miles taking about 34 minutes.</li>
+        <li>Business Cab rides are not only more in volume, but also in distance travelled. </li>
+        <li>Main uses of cab rides are Meal/Entertainment, Customer visit, Meeting, Errand/Supplies. </li>
+        <li>Cab traffic is mostly concentrated in 5 cities or localities. </li>
+        <li>Ac seasonal pattern of cab ride volume exists, which is highest on December. </li>
+      </ul>
+    </div>
+    <footer>
+    <a href="mailto:premjha3010@gmail.com" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/in/prem-jha-b5ba871b2/" class="fa fa-linkedin"></a>
+    <a href="https://github.com/tenserebel" class="fa fa-github"></a>
+    <p>By Prem Jha </p>
+    </footer>
+
+    
+    <script src="static/home.js" async defer></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+  margin-top:40px;
+}
+
+#navbar a {
+  float: left;
+  width: 30%;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+#navbar a:hover{
+  background-color: #00FF00;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+#title{
+  text-align: center;
+}
+#title h1{
+  text-align: center;
+  font-size:5em;
+  font-family: Garamond;
+}
+#Description{
+  font-size:2em;
+  font-family:arial;
+}
+.btn {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #00FF00;
+  color: white;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(2, 1, 1, 0.829);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+footer{
+  text-align: center;
+  padding:3px;
+}
